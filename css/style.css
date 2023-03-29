@@ -1,0 +1,116 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 100%;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Segoe WP';
+  src: url("fonts/ofont.ru_Segoe WP.eot");
+  src: local("☺"), url("fonts/ofont.ru_Segoe WP.woff") format("woff"), url("../fonts/ofont.ru_Segoe WP.ttf") format("truetype"), url("fonts/ofont.ru_Segoe WP.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe WPN Semi';
+  src: url("fonts/ofont.ru_Segoe WP Semibold.eot");
+  src: local("☺"), url("fonts/ofont.ru_Segoe WP Semibold.woff") format("woff"), url("../fonts/ofont.ru_Segoe WP Semibold.ttf") format("truetype"), url("fonts/ofont.ru_Segoe WP Semibold.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.Navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 67px;
+  padding: 0 300px;
+}
+
+.Indo {
+  font-family: 'Segoe WP';
+  font-size: 36.4px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: -0.06em;
+  color: #1298dd;
+}
+
+.Tourism {
+  font-family: 'Segoe WPN Semi';
+  font-size: 30.4px;
+  letter-spacing: normal;
+  color: #8d8d8d;
+}
+/*# sourceMappingURL=style.css.map */
